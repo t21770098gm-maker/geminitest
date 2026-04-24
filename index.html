@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gavin's Photos</title>
+  
+  <style>
+    /* Clean, human-readable CSS to replace Squarespace's layout engine */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    header {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      box-sizing: border-box;
+    }
+
+    .header-title a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .header-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .header-nav a {
+      text-decoration: none;
+      color: #555;
+    }
+
+    .header-nav a:hover,
+    .header-nav a[aria-current="page"] {
+      color: #000;
+    }
+
+    main {
+      width: 100%;
+      max-width: 1200px;
+      padding: 40px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+    }
+
+    .photo-container {
+      max-width: 800px;
+      text-align: right; /* Aligns the caption text to the right like your original */
+    }
+
+    .photo-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 40px 20px;
+      color: #777;
+    }
+
+    footer h4 {
+      font-weight: normal;
+      word-spacing: 15px; /* Spaces out your footer links */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-title">
+      <a href="/">Gavin's Photos</a>
+    </div>
+    <nav class="header-nav">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/albums">Albums</a>
+      <a href="/favorites">Favorites</a>
+      <a href="/about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="photo-container">
+      <img src="https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/d29a74d7-21c7-401b-8d6d-ed778946dbec/imgg-demo-5mwQOuma.png" alt="Demo photo">
+      <p>This photo on this date</p>
+    </div>
+  </main>
+  
+  <footer>
+    <h4>Home Photos About</h4>
+  </footer>
+</body>
+</html>
