@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin's Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <a href="/">Gavin's Photos</a>
+        </div>
+        <nav class="main-nav">
+            <a href="/">Home</a>
+            <a href="/albums" class="active">Albums</a>
+            <a href="/favorites">Favorites</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <main id="page">
+        <section class="portfolio-section">
+            <div class="portfolio-grid">
+                
+                <a class="grid-item" href="/albums/peaks-d2973">
+                    <div class="image-wrapper">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cdc8db64d546e01b837cea4/1562710262349-VSOYX8VZYQQF5JF5HOV9/65.jpg" alt="Peaks">
+                    </div>
+                    <h3 class="portfolio-title">Peaks</h3>
+                </a>
+
+                <a class="grid-item" href="/albums/coast-a5phl">
+                    <div class="image-wrapper">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cdc8db64d546e01b837cea4/1562710303726-HN4N2S110UN9FFW6SQ9K/1.jpg" alt="Coast">
+                    </div>
+                    <h3 class="portfolio-title">Coast</h3>
+                </a>
+
+                <a class="grid-item" href="/albums/wildlife-rtjbw">
+                    <div class="image-wrapper">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cdc8db64d546e01b837cea4/1562710337910-ETNNKGNBU2IPDFJFZAC7/3.jpg" alt="Wildlife">
+                    </div>
+                    <h3 class="portfolio-title">Wildlife</h3>
+                </a>
+
+                <a class="grid-item" href="/albums/seafaring-b24jm">
+                    <div class="image-wrapper">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cdc8db64d546e01b837cea4/1562710379262-HJY43PPFCTN2331DQ67P/73.jpg" alt="Seafaring">
+                    </div>
+                    <h3 class="portfolio-title">Seafaring</h3>
+                </a>
+
+                <a class="grid-item" href="/albums/dock-bt8t6">
+                    <div class="image-wrapper">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cdc8db64d546e01b837cea4/1562711143537-Y34EGHLSFXS8JGD7ONO2/47.jpg" alt="Dock">
+                    </div>
+                    <h3 class="portfolio-title">Dock</h3>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <a href="/">Home</a>
+            <a href="/albums">Photos</a>
+            <a href="/about">About</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
